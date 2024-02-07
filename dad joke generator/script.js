@@ -1,7 +1,5 @@
 // calling APIs in javascript
 
-
-
 // chat gpt version
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -29,7 +27,5 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("get-joke-btn").addEventListener("click", function () {
         fetchDadJoke();
     });
-    
-
  
 });
