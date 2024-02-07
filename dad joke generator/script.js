@@ -29,4 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("get-joke-btn").addEventListener("click", function () {
         fetchDadJoke();
     });
+    
+
+ 
 });
