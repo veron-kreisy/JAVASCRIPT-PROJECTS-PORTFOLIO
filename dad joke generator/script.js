@@ -19,6 +19,18 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log("Error fetching dad joke:", error);
         });
     }
+    
+console.log("having a mid day");
+
+
+
+
+console.log("dad joke generator");
+
+
+
+
+
 
     // Preload a dad joke when the page loads
     fetchDadJoke();
