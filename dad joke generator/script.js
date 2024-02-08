@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     
-console.log("having a mid day");
 
     fetchDadJoke();
 
