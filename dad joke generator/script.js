@@ -24,10 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
     
 console.log("having a mid day");
 
-
-
-
-console.log("dad joke generator");
     fetchDadJoke();
 
     // Event listener for the "Get Another Joke" button
