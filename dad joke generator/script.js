@@ -16,8 +16,27 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("joke").innerText = data.joke;
         })
         .catch(error => {
+
+
+
+            
+
+
+
+
             console.log("Error fetching dad joke:", error);
-        });
+        
+        }
+        
+        
+        
+        
+        
+        );
+        // wakatime is back
+
+
+
     }
 
 
