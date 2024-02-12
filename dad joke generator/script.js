@@ -15,38 +15,17 @@ document.addEventListener("DOMContentLoaded", function () {
             // Display the joke in the #joke paragraph
             document.getElementById("joke").innerText = data.joke;
         })
-        .catch(error => {
-
-
-
-            
-
-
-
-
+        .catch(error => {       
             console.log("Error fetching dad joke:", error);
         
-        }
-        
-        
-        
-        
-        
-        );
-        // wakatime is back
-
-
-
+        });
     }
-
-
-    
-
-    fetchDadJoke();
+fetchDadJoke();
 
     // Event listener for the "Get Another Joke" button
     document.getElementById("get-joke-btn").addEventListener("click", function () {
         fetchDadJoke();
     });
- 
 });
+
+
