@@ -1,6 +1,4 @@
-// calling APIs in javascript
 
-// chat gpt version
 
 document.addEventListener("DOMContentLoaded", function () {
     // Function to fetch a random dad joke from the API
@@ -17,15 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {       
             console.log("Error fetching dad joke:", error);
-        
-        });
-    }
-fetchDadJoke();
 
-    // Event listener for the "Get Another Joke" button
+        });
+
+    }
+fetchDadJoke(
+
+);
+
     document.getElementById("get-joke-btn").addEventListener("click", function () {
         fetchDadJoke();
     });
 });
-
 
