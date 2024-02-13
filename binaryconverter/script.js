@@ -7,5 +7,8 @@ const result=document.getElementById('result');
 function checkUserInput(){
 
     console.log(numberInput.value);
+    convertBtn.addEventListener('click', checkUserInput);
+    numberInput.addEventListener(keydown)
+    
 
 }
