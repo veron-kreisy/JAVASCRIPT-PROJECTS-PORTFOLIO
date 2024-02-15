@@ -2,13 +2,19 @@
 const convertBtn=document.getElementById('convert-btn');
 const result=document.getElementById('result');
 
-// checking the value of a number
+// function that checks the value of the number input
+
 
 function checkUserInput(){
 
     console.log(numberInput.value);
+
+
+
+
     convertBtn.addEventListener('click', checkUserInput);
-    numberInput.addEventListener(keydown)
-    
+    numberInput.addEventListener(
+        
+    )
 
 }
