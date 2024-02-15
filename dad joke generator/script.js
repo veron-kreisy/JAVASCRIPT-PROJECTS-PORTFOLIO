@@ -15,16 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {       
             console.log("Error fetching dad joke:", error);
-
-        });
-
-    }
+});}
 fetchDadJoke(
 
 );
-
     document.getElementById("get-joke-btn").addEventListener("click", function () {
         fetchDadJoke();
     });
 });
+
 
