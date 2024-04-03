@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.navbar{
+    align-content: center;
+    display: inline-flex;
+    size: 26%;
+    text-align: justify;
+    
+
+}
+.webTechnology{
+    color: antiquewhite;
+}
+.Cprogramming{
+    color: antiquewhite;
+}
+.courses{
+    color: antiquewhite;
+}
+.empty{
+    box-sizing:inherit;
+}
