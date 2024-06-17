@@ -86,9 +86,19 @@ function addTwoNumbers(){
 const sum =addTwoNumbers(5,10);
 console.log(sum);
 }
-
+// the correct code
 function addTwoNumbers(a, b) {
     return a + b;
 }
 let sum = addTwoNumbers(5, 10);
 console.log(sum);
+
+
+function padRow(name) {
+    return name="character"+name;
+  }
+  function padRow(name) {
+    return character+name;
+  }
+//   first 100 lines of code
+
