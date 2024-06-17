@@ -77,8 +77,18 @@ for (let i = 0; i < count; i = i + 1) {
 function padRow(){
 
 }
+function addTwoNumbers(sum){
+    const sum= 5+10;
+    return sum;
+}
 
-  const call =padRow();
- console.log(call);
+function addTwoNumbers(){
+const sum =addTwoNumbers(5,10);
+console.log(sum);
+}
 
-
+function addTwoNumbers(a, b) {
+    return a + b;
+}
+let sum = addTwoNumbers(5, 10);
+console.log(sum);
