@@ -34,4 +34,19 @@ cities[cities.length-1]= "Mexico City";
 console.log(cities);
 
 // methods in javascript
+// .push()method adds value/elements to an array
+rows.push("freeCodeCamp");
+console.log(rows);
+
+
+// pop removes the last element from an array
+// .pop() returns the value that was removed from the array
+
+let popped =rows.pop();
+console.log(popped);
+
+
+
+
+
   
