@@ -64,5 +64,20 @@ for (let i = 0; i < count; i = i + 1) {
 let result="";
 console.log(result);
 
+for( const row of rows){
 
-  
+}
+// concatenation is adding strings to string
+for (const row of rows) {
+result=result+"row";
+}
+// next line"\n"
+// repeat method
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i))
+  }
+//   functions are reusable codes
+function padRow(){
+
+}
+padRow();
