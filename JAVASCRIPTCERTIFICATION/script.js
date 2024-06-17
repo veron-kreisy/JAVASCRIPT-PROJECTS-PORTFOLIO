@@ -45,6 +45,16 @@ console.log(rows);
 let popped =rows.pop();
 console.log(popped);
 
+let pushed =rows.push();
+console.log(pushed);
+// let(allows to be changed) vs const(constant throughout)
+
+// building pyramid generator
+
+const character = "#";
+const count = 8;
+const rows = [];
+
 
 
 
