@@ -1,3 +1,5 @@
+
+
 let character ='Hello';
 console.log(character);
 // when reassigning variables don't use the let keyword
@@ -55,8 +57,12 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-
-
+// for loop
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(i);
+  }
+let result="";
+console.log(result);
 
 
   
