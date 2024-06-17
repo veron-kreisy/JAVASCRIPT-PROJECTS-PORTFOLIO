@@ -17,4 +17,19 @@ console.log(count+1);
 // arrays in programming
 let rows=["Naomi","Quincy","CamperChan"];
 console.log(rows[0]);
+// updating arrays in console iscalled mutation
+// when to mutate an array and when not to
+// learning and creating is diffrent, allocate 1hr to each cause
+
+rows[2]=10;
+console.log(rows);
+
+// array.length returns the number of elements in an array but you have to sutract one
+
+rows[rows.length-1]
+// learning arrays
+let cities=["London","New York","Mumbai"];
+console.log(cities);
+cities[cities.length-1]= "Mexico City";
+console.log(cities);
 
