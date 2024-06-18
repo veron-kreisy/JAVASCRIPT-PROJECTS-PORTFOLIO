@@ -101,4 +101,11 @@ function padRow(name) {
     return character+name;
   }
 //   first 100 lines of code
+function padRow(name) {
+    const test="Testing"
+
+    return character + name;
+  }
+
+// programming can be intimidating
 
