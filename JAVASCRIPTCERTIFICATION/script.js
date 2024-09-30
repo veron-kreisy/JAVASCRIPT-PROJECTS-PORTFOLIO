@@ -10,7 +10,7 @@ let age;
 console.log(profession);
 console.log(age);
 // count variable
-let count=8;
+let count1=8;
 // addition on console
 console.log(count+1);
 // arrays in programming
@@ -51,7 +51,7 @@ console.log(pushed);
 // building pyramid generator
 
 const character = "#";
-const count = 8;
+const count2 = 8;
 const rows = [];
 
 // for loop
